@@ -132,7 +132,7 @@ tray.AddModule('I3Reader', 'reader', FilenameList=args)
 tray.Add(Classifier, 'classifier')
 
 
-tray.Add(RelevantEnergyWriter,'relevantEnergyWriter')
+tray.Add(RelevantEnergyWriter, 'relevantEnergyWriter')
 
 
 if(options.format == 'i3'):
