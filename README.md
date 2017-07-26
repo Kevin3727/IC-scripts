@@ -1,1 +1,1 @@
-# IC-scripts
+# IceCube scripts
