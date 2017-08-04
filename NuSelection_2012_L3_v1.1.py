@@ -25,7 +25,7 @@ if options.dstype not in ["data", "nugen", "nufsgen", "corsika"]:
 if len(args) == 0:
     raise Exception("no input file is given")
 
-from definitions2_new import *
+from definitions import *
 import icecube
 from I3Tray import *
 from icecube import icetray, dataio, dataclasses, photonics_service, DomTools, weighting

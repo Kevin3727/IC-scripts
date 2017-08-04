@@ -31,7 +31,7 @@ if options.outputFile is None:
     raise Exception("output file is not defined")
 
 
-from definitions2_new import *
+from definitions import *
 from I3Tray import *
 from icecube import icetray, dataio, dataclasses, photonics_service
 import math

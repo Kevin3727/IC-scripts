@@ -40,7 +40,7 @@ if options.outputFile is None:
 if options.format not in ['i3', 'h5']:
     raise Exception("Format can only be either 'i3' or 'h5'!")
 
-from definitions2_new import *
+from definitions import *
 from I3Tray import *
 from icecube import icetray, dataio, dataclasses, photonics_service
 import math

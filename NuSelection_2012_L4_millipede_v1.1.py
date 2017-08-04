@@ -27,7 +27,7 @@ muon), and the second as continuous losses.
 input: offline reconstructed .i3 file(s)
 """
 
-from definitions2_new import *
+from definitions import *
 from I3Tray import *
 import sys
 from icecube import icetray, dataio, dataclasses, photonics_service
